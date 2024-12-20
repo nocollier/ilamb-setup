@@ -1,0 +1,12 @@
+[project]
+name = "ilamb-setup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "intake-esgf",
+]
+
+[tool.uv.sources]
+intake-esgf = { git = "https://github.com/esgf2-us/intake-esgf" }
